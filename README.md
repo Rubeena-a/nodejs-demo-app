@@ -1,22 +1,60 @@
 # nodejs-demo-app
-Automate Code Deployment Using CI/CD Pipeline 
-## 🎯 Objective
+## Automate Code Deployment Using CI/CD Pipeline
 
+###  Objective
 Automate the process of building, testing, and deploying a Node.js web application using a CI/CD pipeline.
 
-## ⚙️ Features
-
+###  Features
 - ✅ Automatically runs tests on every push
 - ✅ Builds a Docker image of the app
 - ✅ Pushes the image to DockerHub
 - ✅ Uses GitHub Actions for continuous integration and deployment
 
-## Prerequisites
+### Results 
 
-- Before running or testing this project, install:
-    1. Node.js
- (v16 or later)
-    2. Docker Desktop
-    3. Git
-    4. A GitHub account
-    5. A DockerHub account
+#### Local Development & Testing:
+Here's how the application and tests run locally, along with Docker image creation and execution.
+
+- **Run Node.js Application:**
+  ```bash
+  node app.js
+  ```
+  Access the application at `http://localhost:3000`
+<img width="691" height="174" alt="image" src="https://github.com/user-attachments/assets/fc8d9d72-e16e-434d-b89a-4391ebc01b7e" />
+
+- **Run Tests:**
+  ```bash
+  node test.js
+  ```
+<img width="612" height="140" alt="image" src="https://github.com/user-attachments/assets/7bdca3c1-2890-4681-9599-b5b6c8369eee" />
+
+- **Build Docker Image Locally:**
+  ```bash
+  docker build -t nodejs-cicd-app .
+  ```
+<img width="723" height="381" alt="image" src="https://github.com/user-attachments/assets/c8c61ca0-a900-4027-a309-3dc2bde21651" />
+
+- **Run Node.js App in Docker:**
+  ```bash
+  docker run -p 3000:3000 nodejs-cicd-app
+  ```
+  Access the application at `http://localhost:3000`
+<img width="768" height="197" alt="image" src="https://github.com/user-attachments/assets/144897f2-6604-41c1-9052-c574edc6eeeb" />
+
+- **Docker Image Created:**
+<img width="628" height="525" alt="image" src="https://github.com/user-attachments/assets/05ad05a2-db72-490e-8830-0a7bf20022d6" />
+
+
+#### GitHub Actions Workflow:
+<img width="769" height="606" alt="image" src="https://github.com/user-attachments/assets/302392fb-170c-4cd0-81e8-a9b3a203210c" />
+
+### Prerequisites
+Before running or testing this project, ensure you have the following installed:
+1.  **Node.js** 
+2.  **Docker Desktop**
+3.  **Git**
+4.  A **GitHub account**
+5.  A **DockerHub account**
+
+### Author 
+Rubeena Shaik
