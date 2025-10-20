@@ -10,7 +10,7 @@ Automate the process of building, testing, and deploying a Node.js web applicati
 - ✅ Pushes the image to DockerHub
 - ✅ Uses GitHub Actions for continuous integration and deployment
 
-### Test Results And Commands To Execute
+### Testing The App
 
 #### Local Development & Testing:
 Here's how the application and tests run locally, along with Docker image creation and execution.
@@ -20,33 +20,65 @@ Here's how the application and tests run locally, along with Docker image creati
   node app.js
   ```
   Access the application at `http://localhost:3000`
-<img width="691" height="174" alt="image" src="https://github.com/user-attachments/assets/fc8d9d72-e16e-434d-b89a-4391ebc01b7e" />
 
 - **Run Tests:**
   ```bash
   node test.js
   ```
-<img width="612" height="140" alt="image" src="https://github.com/user-attachments/assets/7bdca3c1-2890-4681-9599-b5b6c8369eee" />
-
 - **Build Docker Image Locally:**
   ```bash
   docker build -t nodejs-cicd-app .
   ```
-<img width="500" height="381" alt="image" src="https://github.com/user-attachments/assets/c8c61ca0-a900-4027-a309-3dc2bde21651" />
 
 - **Run Node.js App in Docker:**
   ```bash
   docker run -p 3000:3000 nodejs-cicd-app
   ```
   Access the application at `http://localhost:3000`
-<img width="500" height="197" alt="image" src="https://github.com/user-attachments/assets/144897f2-6604-41c1-9052-c574edc6eeeb" />
 
-- **Docker Image Created:**
-<img width="500" height="525" alt="image" src="https://github.com/user-attachments/assets/05ad05a2-db72-490e-8830-0a7bf20022d6" />
+### Results
 
+<p align="center">
+  <div style="display: inline-block; text-align: center; margin: 5px;">
+    <img src="https://github.com/user-attachments/assets/fc8d9d72-e16e-434d-b89a-4391ebc01b7e" width="300" />
+    <br>
+    <b>Fig 1:</b> Node.js Application
+  </div>
+  <div style="display: inline-block; text-align: center; margin: 5px;">
+    <img src="https://github.com/user-attachments/assets/7bdca3c1-2890-4681-9599-b5b6c8369eee" width="300" />
+    <br>
+    <b>Fig 2:</b> Running Test
+  </div>
+</p>
 
-#### GitHub Actions Workflow:
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/302392fb-170c-4cd0-81e8-a9b3a203210c" />
+<p align="center">
+  <div style="display: inline-block; text-align: center; margin: 5px;">
+    <img src="https://github.com/user-attachments/assets/c8c61ca0-a900-4027-a309-3dc2bde21651" width="300" />
+    <br>
+    <b>Fig 3:</b> Build Docker Image Locally
+  </div>
+  <div style="display: inline-block; text-align: center; margin: 5px;">
+    <img src="https://github.com/user-attachments/assets/144897f2-6604-41c1-9052-c574edc6eeeb" width="300" />
+    <br>
+    <b>Fig 4:</b> Run node.js app in Docker
+  </div>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/05ad05a2-db72-490e-8830-0a7bf20022d6" width="45%" />
+  <br>
+  <b>Fig 5:</b> Docker Image Created
+</p>
+
+---
+
+### GitHub Actions Workflow
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/302392fb-170c-4cd0-81e8-a9b3a203210c" width="60%" />
+  <br>
+  <b>Fig 6:</b> GitHub Actions CI/CD Workflow
+</p>
 
 ### Prerequisites
 Before running or testing this project, ensure you have the following installed:
