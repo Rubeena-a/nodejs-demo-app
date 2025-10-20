@@ -1,16 +1,27 @@
 # nodejs-demo-app
-## Automate Code Deployment Using CI/CD Pipeline
+### Automate Code Deployment Using CI/CD Pipeline
 
-###  Objective
-Automate the process of building, testing, and deploying a Node.js web application using a CI/CD pipeline.
+###  Objective:
+- Automate the process of building, testing, and deploying a Node.js web application using a CI/CD pipeline.
+
 ---
-###  Features
+
+### Prerequisites:
+Before running or testing this project, ensure you have the following installed:
+1.  **Node.js** 
+2.  **Docker Desktop**
+3.  **Git**
+4.  A **GitHub account**
+5.  A **DockerHub account**
+---
+
+###  Features:
 - ✅ Automatically runs tests on every push
 - ✅ Builds a Docker image of the app
 - ✅ Pushes the image to DockerHub
 - ✅ Uses GitHub Actions for continuous integration and deployment
 ---
-### Testing The App
+### Testing The App:
 
 #### Local Testing:
 Here's how the application and tests run locally, along with Docker image creation and execution.
@@ -36,7 +47,7 @@ Here's how the application and tests run locally, along with Docker image creati
   ```
   Access the application at `http://localhost:3000`
 ---
-### Results
+### Results:
 
 <p align="center">
   <div style="display: inline-block; text-align: center; margin: 5px;">
@@ -65,7 +76,7 @@ Here's how the application and tests run locally, along with Docker image creati
 </p>
 ---
 
-### Docker Image
+### Docker Image:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/05ad05a2-db72-490e-8830-0a7bf20022d6" width="45%" />
   <br>
@@ -74,22 +85,18 @@ Here's how the application and tests run locally, along with Docker image creati
 
 ---
 
-### GitHub Actions Workflow
+### GitHub Actions Workflow:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/302392fb-170c-4cd0-81e8-a9b3a203210c" width="60%" />
   <br>
   <b>Fig 6:</b> GitHub Actions CI/CD Workflow
 </p>
+
 ---
-### Prerequisites
-Before running or testing this project, ensure you have the following installed:
-1.  **Node.js** 
-2.  **Docker Desktop**
-3.  **Git**
-4.  A **GitHub account**
-5.  A **DockerHub account**
----
-### Author 
+
+
+### Author: 
 Rubeena Shaik
+
 ---
