@@ -3,16 +3,16 @@
 
 ###  Objective
 Automate the process of building, testing, and deploying a Node.js web application using a CI/CD pipeline.
-
+---
 ###  Features
 - ✅ Automatically runs tests on every push
 - ✅ Builds a Docker image of the app
 - ✅ Pushes the image to DockerHub
 - ✅ Uses GitHub Actions for continuous integration and deployment
-
+---
 ### Testing The App
 
-#### Local Development & Testing:
+#### Local Testing:
 Here's how the application and tests run locally, along with Docker image creation and execution.
 
 - **Run Node.js Application:**
@@ -35,7 +35,7 @@ Here's how the application and tests run locally, along with Docker image creati
   docker run -p 3000:3000 nodejs-cicd-app
   ```
   Access the application at `http://localhost:3000`
-
+---
 ### Results
 
 <p align="center">
@@ -79,7 +79,7 @@ Here's how the application and tests run locally, along with Docker image creati
   <br>
   <b>Fig 6:</b> GitHub Actions CI/CD Workflow
 </p>
-
+---
 ### Prerequisites
 Before running or testing this project, ensure you have the following installed:
 1.  **Node.js** 
@@ -87,6 +87,7 @@ Before running or testing this project, ensure you have the following installed:
 3.  **Git**
 4.  A **GitHub account**
 5.  A **DockerHub account**
-
+---
 ### Author 
 Rubeena Shaik
+---
