@@ -32,21 +32,21 @@ Here's how the application and tests run locally, along with Docker image creati
   ```bash
   docker build -t nodejs-cicd-app .
   ```
-<img width="723" height="381" alt="image" src="https://github.com/user-attachments/assets/c8c61ca0-a900-4027-a309-3dc2bde21651" />
+<img width="500" height="381" alt="image" src="https://github.com/user-attachments/assets/c8c61ca0-a900-4027-a309-3dc2bde21651" />
 
 - **Run Node.js App in Docker:**
   ```bash
   docker run -p 3000:3000 nodejs-cicd-app
   ```
   Access the application at `http://localhost:3000`
-<img width="768" height="197" alt="image" src="https://github.com/user-attachments/assets/144897f2-6604-41c1-9052-c574edc6eeeb" />
+<img width="500" height="197" alt="image" src="https://github.com/user-attachments/assets/144897f2-6604-41c1-9052-c574edc6eeeb" />
 
 - **Docker Image Created:**
-<img width="628" height="525" alt="image" src="https://github.com/user-attachments/assets/05ad05a2-db72-490e-8830-0a7bf20022d6" />
+<img width="500" height="525" alt="image" src="https://github.com/user-attachments/assets/05ad05a2-db72-490e-8830-0a7bf20022d6" />
 
 
 #### GitHub Actions Workflow:
-<img width="769" height="606" alt="image" src="https://github.com/user-attachments/assets/302392fb-170c-4cd0-81e8-a9b3a203210c" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/302392fb-170c-4cd0-81e8-a9b3a203210c" />
 
 ### Prerequisites
 Before running or testing this project, ensure you have the following installed:
