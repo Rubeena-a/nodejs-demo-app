@@ -1,6 +1,6 @@
 # nodejs-demo-app
 ## Automate Code Deployment Using CI/CD Pipeline
----
+
 ###  Objective
 Automate the process of building, testing, and deploying a Node.js web application using a CI/CD pipeline.
 ---
@@ -64,6 +64,7 @@ Here's how the application and tests run locally, along with Docker image creati
   </div>
 </p>
 ---
+
 ### Docker Image
 <p align="center">
   <img src="https://github.com/user-attachments/assets/05ad05a2-db72-490e-8830-0a7bf20022d6" width="45%" />
