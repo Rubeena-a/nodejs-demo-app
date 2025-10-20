@@ -7,12 +7,12 @@
 ---
 
 ### Prerequisites:
-Before running or testing this project, ensure you have the following installed:
 1.  **Node.js** 
 2.  **Docker Desktop**
 3.  **Git**
 4.  A **GitHub account**
 5.  A **DockerHub account**
+   
 ---
 
 ###  Features:
