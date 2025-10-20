@@ -10,7 +10,7 @@ Automate the process of building, testing, and deploying a Node.js web applicati
 - ✅ Pushes the image to DockerHub
 - ✅ Uses GitHub Actions for continuous integration and deployment
 
-### Test Results 
+### Test Results And Commands To Execute
 
 #### Local Development & Testing:
 Here's how the application and tests run locally, along with Docker image creation and execution.
